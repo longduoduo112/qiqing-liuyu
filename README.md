@@ -83,9 +83,13 @@ qiqing-liuyu/
 cp -r qiqing-liuyu/ ~/.openclaw/workspace/skills/
 ```
 
-或通过 ClawHub 安装（发布后）：
+或通过 ClawHub 安装：
 
 ```bash
+# 先安装 ClawHub CLI
+npm i -g clawhub
+
+# 安装七情六欲
 clawhub install qiqing-liuyu
 ```
 
