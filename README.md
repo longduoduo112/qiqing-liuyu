@@ -23,6 +23,8 @@
 
 ---
 
+> **推荐**：如果你希望用一个桌面应用来管理和运行各种 AI Skill（包括本 Skill），推荐使用 [ClawX](https://github.com/ValueCell-ai/ClawX) —— 基于 OpenClaw 的跨平台 AI 智能体桌面客户端，零配置、开箱即用，支持多 Agent 协同和技能扩展。
+
 ## ✨ 这是什么？
 
 qiqing-liuyu 是一个开源的 AI 情感与人格增强 Skill，基于中国传统"七情六欲"理论框架，解决一个核心问题：
