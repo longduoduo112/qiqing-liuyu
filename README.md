@@ -4,9 +4,15 @@
   <p>让 AI 不再像 AI。</p>
 </p>
 
-<p align="center">
-  <img src="https://api.star-history.com/svg?repos=Lniosy/qiqing-liuyu&type=Date" alt="Star History Chart" width="600">
-</p>
+## Star History
+
+<a href="https://www.star-history.com/?repos=Lniosy%2Fqiqing-liuyu&type=date&legend=bottom-right">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=Lniosy/qiqing-liuyu&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=Lniosy/qiqing-liuyu&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=Lniosy/qiqing-liuyu&type=date&legend=top-left" />
+ </picture>
+</a>
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
