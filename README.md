@@ -83,13 +83,24 @@ qiqing-liuyu/
 
 ### 安装
 
+#### Claude Code
+
+```bash
+# 克隆到 skills 目录
+git clone https://github.com/Lniosy/qiqing-liuyu.git ~/.claude/skills/qiqing-liuyu
+```
+
+安装后即可在 Claude Code 中使用 `/qiqing-liuyu` 命令触发。
+
+#### OpenClaw
+
 将 `qiqing-liuyu/` 目录放入你的 OpenClaw skills 目录：
 
 ```bash
 cp -r qiqing-liuyu/ ~/.openclaw/workspace/skills/
 ```
 
-或通过 ClawHub 安装：
+#### ClawHub
 
 ```bash
 # 先安装 ClawHub CLI
