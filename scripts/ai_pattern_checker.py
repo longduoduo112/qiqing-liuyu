@@ -59,13 +59,11 @@ def check_text(text: str) -> dict:
     line_count = len(text.split("\n"))
     char_count = len(text)
 
-    # 1. 破折号
+    # 1. 破折号（$KH 规则：完全禁用，零容忍）
     dashes = re.findall(DASH_PATTERN, text)
     dash_count = len(dashes)
-    if dash_count > 2:
-        issues.append({"type": "破折号过多", "count": dash_count, "limit": 2, "severity": "high"})
-    elif dash_count > 0:
-        issues.append({"type": "破折号", "count": dash_count, "limit": 2, "severity": "info"})
+    if dash_count > 0:
+        issues.append({"type": "破折号（禁用）", "count": dash_count, "limit": 0, "severity": "high"})
 
     # 2. 高优先级连接词
     for conn in HIGH_PRIORITY_CONNECTORS:
