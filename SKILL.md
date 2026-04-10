@@ -1,6 +1,6 @@
 ---
 name: qiqing-liuyu
-version: "1.3.0"
+version: "2.0.0"
 description: |
   AI 情感与人格增强技能。让 AI 拥有类人的"七情六欲"：情感反应、个人观点、态度偏好、情绪表达。
 
